@@ -29,7 +29,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span>I'm </span>
+                <span>I am </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>

@@ -3,19 +3,20 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Vedansh",
-  logo_name: "vedansh.v()",
+  title2: "berberidis",
+  logo_name: "berberidis.v()",
   // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
+  full_name: "Vasilis Berberidis",
   subTitle:
-    "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+    // "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+    "Software Engineer, my Goal is to make the difference and express my passion for development/ learning / innovating the most effective way I can.",
   resumeLink:
     "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
   mail: "mailto:im.vedanshvijay2002@gmail.com",
@@ -23,25 +24,24 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
+  github: "https://github.com/dahakashow/",
+  linkedin: "https://www.linkedin.com/in/vasilis-berberidis-786145153/",
+  gmail: "berberidisv@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/vedv_2002/",
+  // facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
+  // twitter: "https://twitter.com/vedansh_v_/",
+  // instagram: "https://www.instagram.com/vedv_2002/",
 };
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Skills",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive User Interfaces and Backend for web applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Express, Flask, Django and Fast-API",
-        "⚡ Integration of third party services such as Firebase/ AWS / GCP",
+        "⚡ Creating Microservices with Spring Boot framework ",
+        "⚡ Building websites using Wordpress",
+        "⚡ Developing Wordpress plugins/ modifying existing ones",
       ],
       softwareSkills: [
         {
@@ -67,12 +67,26 @@ const skills = {
           },
         },
         {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
+          skillName: "PHP",
+          fontAwesomeClassname: "logos:php",
           style: {
-            color: "#563d7c",
+            color: "#E94E32",
           },
         },
+        {
+          skillName: "Wordpress",
+          fontAwesomeClassname: "logos:wordpress-icon",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        // {
+        //   skillName: "Bootstrap",
+        //   fontAwesomeClassname: "simple-icons:bootstrap",
+        //   style: {
+        //     color: "#563d7c",
+        //   },
+        // },
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -80,41 +94,41 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#0c4b33",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
+        // {
+        //   skillName: "NodeJS",
+        //   fontAwesomeClassname: "simple-icons:node-dot-js",
+        //   style: {
+        //     color: "#339933",
+        //   },
+        // },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
+        // {
+        //   skillName: "Flask",
+        //   fontAwesomeClassname: "simple-icons:flask",
+        //   style: {
+        //     color: "#000000",
+        //   },
+        // },
+        // {
+        //   skillName: "Django",
+        //   fontAwesomeClassname: "simple-icons:django",
+        //   style: {
+        //     color: "#0c4b33",
+        //   },
+        // },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#439743",
+        //   },
+        // },
         // {
         //   skillName: "GraphQL",
         //   fontAwesomeClassname: "simple-icons:graphql",
@@ -134,6 +148,35 @@ const skills = {
           fontAwesomeClassname: "simple-icons:java",
           style: {
             color: "#f89820",
+          },
+        },
+        {
+          skillName: "Spring boot",
+          fontAwesomeClassname: "logos:spring-icon",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "logos:c-sharp",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            color: "#E94E32",
+          },
+        },
+
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
           },
         },
         // {
@@ -193,93 +236,27 @@ const skills = {
           },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
           style: {
             color: "#E94E32",
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos:kubernetes",
           style: {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
+
         // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
+        //   skillName: "C",
+        //   fontAwesomeClassname: "simple-icons:c",
         //   style: {
-        //     color: "#1488C6",
+        //     color: "#E94E32",
         //   },
         // },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
-          },
-        },
       ],
     },
   ],
@@ -288,18 +265,32 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
-      subtitle: "Bachelors in Computer Science and Engineering",
-      logo_path: "SRM_Logo.png",
+      title: "MASTER IN ADVANCED SOFTWARE DEVELOPMENT TECHNOLOGIES",
+      subtitle: "University of Piraeus - Greece",
+      logo_path: "Unipi-logo.png",
       alt_name: "SSEC",
-      duration: "2019 - 2023",
+      duration: "2016 - 2020",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
+        "⚡  Thesis: MyCovidUnipi , Cloud based android application to notify users of COVID-19 exposure.",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "https://www.unipi.gr/unipi/en/",
+    },
+    {
+      title: "BACHELOR IN COMPUTER SCIENCE",
+      subtitle: "University of Piraeus - Greece",
+      logo_path: "Unipi-logo.png",
+      alt_name: "SSEC",
+      duration: "2012 - 2016",
+      descriptions: [
+        "⚡  Degree grade : 7.8.",
+        "⚡  Specialization: software technology and intelligent systems",
+        "⚡  Thesis: MyCrowdCharger (Published) Cloud based android https://ieeexplore.ieee.org/document/7785382",
+        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+      ],
+      website_link: "https://www.unipi.gr/unipi/en/",
     },
   ],
 };
@@ -433,102 +424,129 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
-          logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
-          location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving technics by 20%. 
-          `,
+          title: "Software engineer",
+          company: "Netcompany-Intrasoft",
+          company_url: "https://www.netcompany-intrasoft.com/",
+          logo_path: "netcompany1.png",
+          duration: "Jul 2018 - Now",
+          location: "Greece - Athens",
+          description: `·This role required IBM’s WebSphere administration skills, IBM Integration Designer skills, in order to\n
+develop and deploy applications to the application server,
+·Oracle Service Bus skills (XQuery, creating pipelines, JMS Queues, Pipeline templates etc.), in addition
+there were administration tasks performed on the server.
+·J2EE knowledge to design build test and deploy application to server.
+·Create Java tools to automate daily tasks.
+·Developing Java application with Spring Boot to create microservices
+·Communication with the client.
+·Train new entries to the company.
+·Propose and design solutions for new projects.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-          title: "Data Science Intern",
-          company: "The Sparks Foundation",
-          company_url: "hhttps://thesparksfoundation.info/",
-          logo_path: "TSF.png",
-          duration: "Aug 2020 - Sept 2020",
-          location: "Remote",
-          description: `Developed predictive models and deployed it on a full-stack website using Flask. Used Boxplot, Heatmap and Confusion Matrix for data visualization. Deep analysis on the superstore dataset using Bar Plots, Bar Charts, Pair Plots and Joint Plots for specific regions.
+          title: "DB DEVELOPER / ETL DEVELOPER",
+          company: "IBM",
+          company_url: "https://www.ibm.com/",
+          logo_path: "ibm.png",
+          duration: "Mar 2017 - Jul 2018",
+          location: "Greece - Athens",
+          description: `·This role required ORACLE's database skills
+I was responsible for developing various and complex PL-SQL Scripts , Optimizing SQL Scripts
+Creating Bash Scripts to communicate with external Systems
+Working with ORACLE’s ETL Software ODI
+·Developing Java software to export DB objects to the File System
+          `,
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          color: "#ee3c26",
+        },
+        {
+          title: "INTEGRATOR DEVELOPER",
+          company: "IBM",
+          company_url: "https://www.ibm.com/",
+          logo_path: "ibm.png",
+          duration: "Mar 2016 Jun - Mar 2017",
+          location: "Greece - Athens",
+          description: `This role required SOA Suite (ORACLE), IBM’s WebSphere skills.
+I was responsible for developing: BPELS, JMS Queues, OSB Flows , Transformations ( XQuery ) , PL-SQL
+Scripts
+
           `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
-          logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
-          logo_path: "CFC.jfif",
-          duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
-          color: "#a60000",
-        },
-        {
-          title: "Machine Learning - Research associate",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
-          logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-          color: "#62cff0",
-        },
-        {
-          title: "Campus Ambassador",
-          company: "Bagcampus",
-          company_url: "https://bagcampus.in/",
-          logo_path: "Bagcampus.jpg",
-          duration: "Dec 2020 - May 2021",
-          location: "Remote",
-          description:
-            "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
-          color: "#0059c9",
-        },
-        {
-          title: "Volunteer",
-          company: "Google Crowdsource",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "GCS.jfif",
-          duration: "Sept 2020 - Present",
-          location: "Remote",
-          description:
-            "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-          color: "#ffffff",
-        },
-        {
-          title: "Student Volunteer",
-          company: "National Service Scheme",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "NSS.jfif",
-          duration: "Dec 2019 - May 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#282b6c",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "R&D Member",
+    //       company: "Webarch Club",
+    //       company_url: "https://www.webarchsrm.com/",
+    //       logo_path: "Webarch.jfif",
+    //       duration: "Mar 2020 - Nov 2020",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Campus Leader",
+    //       company: "Code For Cause",
+    //       company_url: "https://www.codecau.se/",
+    //       logo_path: "CFC.jfif",
+    //       duration: "Nov 2020 - Present",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
+    //       color: "#a60000",
+    //     },
+    //     {
+    //       title: "Machine Learning - Research associate",
+    //       company: "Next Tech Lab",
+    //       company_url: "https://nextech.io/",
+    //       logo_path: "NTL.jfif",
+    //       duration: "Oct 2020 - Present",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
+    //       color: "#62cff0",
+    //     },
+    //     {
+    //       title: "Campus Ambassador",
+    //       company: "Bagcampus",
+    //       company_url: "https://bagcampus.in/",
+    //       logo_path: "Bagcampus.jpg",
+    //       duration: "Dec 2020 - May 2021",
+    //       location: "Remote",
+    //       description:
+    //         "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
+    //       color: "#0059c9",
+    //     },
+    //     {
+    //       title: "Volunteer",
+    //       company: "Google Crowdsource",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "GCS.jfif",
+    //       duration: "Sept 2020 - Present",
+    //       location: "Remote",
+    //       description:
+    //         "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
+    //       color: "#ffffff",
+    //     },
+    //     {
+    //       title: "Student Volunteer",
+    //       company: "National Service Scheme",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "NSS.jfif",
+    //       duration: "Dec 2019 - May 2020",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+    //       color: "#282b6c",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -544,7 +562,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "Screenshot_1_2.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
